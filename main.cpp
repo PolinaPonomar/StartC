@@ -1,17 +1,19 @@
 #include <iostream>
 
 int main() {
-   // int a = 7;
-    // float b = 6.7;
-    char c = 125;
-    std::cout << c*3<<std::endl;
-    std::cout << c/3<<std::endl;
-    std::cout << c+3<<std::endl;
-    std::cout << c-3<<std::endl;
+
+    char c = 'p';
+    int a = 789;
+    std::cout << c/a<<std::endl;
+    std::cout << c*a<<std::endl;
+    std::cout << c+a<<std::endl;
+    std::cout << c-a<<std::endl;
+    std::cout << float(c/a)<<std::endl;
+    std::cout << (c/float(a))<<std::endl;
+    c=c*a;
     std::cout << c<<std::endl;
-    std::cout << char(c*3)<<std::endl;
-    std::cout << char(c/3)<<std::endl;
-    std::cout <<char( c+3)<<std::endl;
-    std::cout << char(c-3)<<std::endl;
+    std::cout <<char(c/a)<<std::endl;
+
+
     return 0;
 }
